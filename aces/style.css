@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Coming+Soon&family=Montserrat&family=Montserrat+Alternates&family=Open+Sans&family=Poppins&family=Roboto&display=swap');
+
+
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Coming Soon', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color:#f6cf57;
+    --color2:#F62D14;
+    --color1:#9e1604;
+    --color2:#ED0A80;
+    --color3:#50AFF8;
+    --color4:#F58300;
+
+}
+
+html,body {
+    overflow-x: hidden;
+    background-color:#080808;
+}
+
+.section {
+    background: rgb(159,17,0);
+background: radial-gradient(circle, rgba(159,17,0,1) -1%, #0f0f0f 30%);
+width:100rem;
+height: 39rem;
+
+
+}
+.section1 {
+    background:#080808;
+width:100rem;
+height: 29rem;
+
+}
+
+.section2 {
+    background: rgb(159,17,0);
+    background: radial-gradient(circle, rgba(159,17,0,1) -10%, #0f0f0f 50%);
+width:100rem;
+height: 39rem;
+overflow: hidden;
+}
+
+.footer {
+  background: #080808;
+width:100rem;
+height: 10rem;
+overflow: hidden;
+margin-top: 2rem;
+}
+
+
+.sep {
+    width: 0;
+    height: 0;
+    border-left: 100vw solid transparent;
+    border-bottom: 13.9vw solid #080808;
+    margin-top: -12.9vw;
+}
+
+.image-background {
+    margin-top:-7rem;
+    margin-left: 35rem;
+    width: 45rem;
+    height: 20rem;
+    transform:rotate(-8deg);
+    transition: 200ms all ease-in-out;
+    
+}
+
+/* .image-background:hover {
+   margin-left: 30rem;
+} */
+#logo {
+    margin-top: 10rem;
+    margin-left: 6rem;
+}
+
+.sub-heading {
+    color: #fff;
+    margin: 1rem 6rem;
+    width: 20rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    justify-content: center;
+    display: flex;
+    background-color: #0f0f0f;
+    align-items: center;
+    gap: 10rem;
+    padding-top: 2rem;
+}
+.links{
+    display: flex;
+    margin-left: -2rem;
+    gap: 1.4rem;
+    align-items: center;
+    
+}
+
+li {
+   list-style-type: none;
+   color: white;
+   font-family: 'Poppins', sans-serif;
+   cursor: pointer;
+}
+
+li:hover {
+    color: var(--color);
+ }
+
+.btn {
+    padding: 0.4rem 1.25rem 0.4rem 1.25rem;
+    background-color: var(--color2);
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 40px;
+    border: 2px solid var(--color2);
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+#top-logo {
+    margin-left: -2.5rem;
+}
+
+.signup {
+   transition: 200ms all ease-in-out;
+   cursor: pointer;
+}
+
+.signup:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.heading{
+    color:#fff;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2.5rem;
+    
+}
+
+.line {
+    background-color: #fff;
+    width: 40rem;
+    height:0.1rem;
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+
+.line1 {
+    background-color: #fff;
+    width: 70rem;
+    height:0.1rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+.line2 {
+    background-color: #fff;
+    width: 70rem;
+    height:0.1rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.subtext {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    width: 50rem;
+    margin: 2rem 20rem;
+}
+
+.reg {
+    text-decoration: underline;
+    color: var(--color);
+    cursor: pointer;
+}
+
+.reg:hover {
+    color: var(--color2);
+}
+
+.first {
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-left: 23rem;
+}
+
+
+.highlight {
+    text-decoration: underline;
+    color: var(--color);
+    cursor: pointer;
+}
+
+.heading-2 {
+    color:#fff;
+    text-align: right;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2.5rem;
+    margin-right: 23rem;
+    
+}
+
+.card-container {
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.card-body {
+    width: 20rem;
+    height: 28rem;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+.fcard {
+    margin-left: 2rem;
+}
+
+.scard {
+    margin-top: -5rem;
+}
+
+.card-image {
+    width: 18rem;
+    height: 10rem;
+    background-color: #c4c4c4;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+    border-radius: 40px;
+    
+}
+
+.card-title {
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.card-description {
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1rem;
+}
+
+.play {
+    margin-left: 5rem;
+    margin-top: 1rem;
+    padding: 0.4rem 1.25rem 0.4rem 1.25rem;
+    background-color: var(--color2);
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 40px;
+    border: 2px solid var(--color2);
+    font-family: 'Poppins', sans-serif;
+    transition: 200ms all ease-in-out;
+}
+
+.play:hover {
+    background-color: var(--color4);
+    border: 2px solid var(--color4);
+    color: #080808;
+}
+
+.footer-text {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin-left: 2rem;
+
+}
+.footer-text2 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+
+}
+.footer-email {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    margin-left: 35rem;
+}
+
+.text-container{ 
+    display: flex;
+    gap: 2rem;
+}
+
+.insta{ 
+    background: #fff;
+    width: 20vh;
+    height: 20vh;
+}
+
+.wrapper {
+    position: relative;
+    width: 450px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter:blur(100px);
+    margin-left: 25rem;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    top: 2rem;
+    overflow: hidden;
+    display: none;
+    transition: height .2s ease;
+}
+
+.wrapper.active-popup {
+    display: flex;
+}
+
+h2 {
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p {
+    color:#fff;
+    font-size:1.2rem;
+}
+
+.input-box label {
+    color:#fff;
+    font-size: 1em;
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-weight: 500;
+    pointer-events: none;
+}
+
+.wrapper .form-box {
+    width: 100%;
+    padding: 40px;
+}
+
+.form-box h2 {
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid var(--color);
+    margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 0 35px 0 35px;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+  }
+
+.input-box .icon {
+    position: absolute;
+    right: 8px;
+    font-size: 1.2rem;
+    color: white;
+    line-height: 51px;
+}
+
+.rem-forgot {
+    font-size: .9em;
+    color: #fff;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rem-forgot label input {
+    accent-color: var(--color2);
+    margin-right: 3px;
+
+}
+
+.rem-forgot a {
+    color: #fff;
+    text-decoration: none;
+    transition: 200ms all ease-in-out;
+}
+
+.rem-forgot a:hover {
+    color: #fff;
+    text-decoration: underline;
+
+}
+
+.submit {
+    width: 100%;
+    height: 45px;
+    background-color: var(--color);
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #000;
+    font-weight: 500;
+}
+
+.login-register {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+
+.login-register p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-register p a:hover{
+  
+    text-decoration: underline;
+ 
+}
+
+.icon-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3rem;
+    height:3rem;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+   z-index:1;
+}
+
+.wrapper .form-box.login {
+   transition: 200ms all ease;
+   transform: translateX(0);
+}
+.wrapper.active .form-box.login {
+   transition: none;
+   transform: translateX(-410px);
+}
+
+.wrapper.active .form-box.register {
+   transition: none;
+   transform: translateX(0);
+}
+
+.wrapper .form-box.register {
+    position: absolute;
+    transition: none;
+    transform: translateX(410px);
+}
+
+.wrapper.active {
+    height: 520px;
+
+}
