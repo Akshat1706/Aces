@@ -1,9 +1,4 @@
 document.addEventListener("mousemove", parallax);
-const wrapper = document.querySelector('.wrapper')
-const loginlink = document.querySelector('.login-link')
-const registerlink = document.querySelector('.register-link')
-const btnPop = document.querySelector('.signup')
-const btnPopclose = document.querySelector('.icon-close')
 var timer;
 
 function parallax(e) {
@@ -29,22 +24,3 @@ function resetParallax() {
         
     });
 }
-
-registerlink.addEventListener('click', ()=> {
-    wrapper.classList.add('active')
-})
-
-
-loginlink.addEventListener('click', ()=> {
-    wrapper.classList.remove('active')
-})
-
-
-btnPop.addEventListener('click', ()=> {
-    wrapper.classList.add('active-popup')
-})
-
-btnPopclose.addEventListener('click', ()=> {
-    wrapper.classList.remove('active-popup')
-})
-
