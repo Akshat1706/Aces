@@ -236,7 +236,7 @@ li:hover {
 .card-body {
     width: 20rem;
     height: 28rem;
-    border: 2px solid white;
+    border: 2px solid #000;
     border-radius: 40px;
 }
 
@@ -259,14 +259,14 @@ li:hover {
 }
 
 .card-title {
-    color: #fff;
+    color: #000;
     font-size: 2rem;
     font-family: 'Montserrat', sans-serif;
     margin-left: 1rem;
     margin-top: 1rem;
 }
 .card-description {
-    color: #fff;
+    color: #000;
     font-size: 1.1rem;
     font-family: 'Poppins', sans-serif;
     margin-left: 1rem;
